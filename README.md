@@ -6,7 +6,7 @@ A small, dependency-free JavaScript/TypeScript library to normalize messy data s
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
 [![Build Status](https://github.com/kaandemirel93/normalizer-js/actions/workflows/ci.yml/badge.svg)](https://github.com/kaandemirel93/normalizer-js/actions)
-[![Coverage Status](https://coveralls.io/repos/github/kaandemirel93/normalizer-js/badge.svg?branch=main)](https://coveralls.io/github/kaandemirel93/normalizer-js?branch=main)
+[![codecov](https://codecov.io/gh/kaandemirel93/normalizer-js/branch/main/graph/badge.svg)](https://codecov.io/gh/kaandemirel93/normalizer-js)
 
 ## Features
 
