@@ -1,6 +1,6 @@
 {
   "name": "@kaandemirel/normalizer-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A powerful JavaScript object normalizer with support for dates, numbers, booleans, nulls, and key naming conventions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
