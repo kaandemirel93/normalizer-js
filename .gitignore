@@ -7,9 +7,6 @@ yarn-error.log*
 # Production build
 dist/
 
-# Coverage reports
-coverage/
-
 # Environment variables
 .env
 .env.local

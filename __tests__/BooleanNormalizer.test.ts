@@ -10,7 +10,7 @@ describe('BooleanNormalizer', () => {
     normalizer = new BooleanNormalizer(config);
   });
 
-  /*describe('shouldNormalize', () => {
+  describe('shouldNormalize', () => {
     it('should return true for boolean strings', () => {
       expect(normalizer.shouldNormalize('true')).toBe(true);
       expect(normalizer.shouldNormalize('false')).toBe(true);
@@ -36,10 +36,10 @@ describe('BooleanNormalizer', () => {
       expect(normalizer.shouldNormalize('true', 'boolField')).toBe(true);
       expect(normalizer.shouldNormalize('true', 'otherField')).toBe(false);
     });
-  });*/
+  });
 
   describe('normalize', () => {
-    /*it('should convert truthy strings to true', () => {
+    it('should convert truthy strings to true', () => {
       expect(normalizer.normalize('true')).toBe(true);
       expect(normalizer.normalize('1')).toBe(true);
     });
@@ -64,7 +64,7 @@ describe('BooleanNormalizer', () => {
       // Default values should still work
       expect(normalizer.normalize('true')).toBe(true);
       expect(normalizer.normalize('false')).toBe(false);
-    });*/
+    });
 
     it('should handle strict mode', () => {
       config.boolean = { strictMode: true };
